@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENVYNODE Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">ENVYNODE</div>
+      <nav class="menu">
+        <a href="#" class="menu-item active"><i class="fas fa-home"></i> Dashboard</a>
+        <a href="#"><i class="fas fa-server"></i> Server Management</a>
+        <a href="#"><i class="fas fa-users"></i> User Management</a>
+        <a href="#"><i class="fas fa-chart-line"></i> Analytics</a>
+        <a href="#"><i class="fas fa-wallet"></i> Billing</a>
+        <a href="#"><i class="fas fa-paint-brush"></i> Themes</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="top-bar">
+        <div class="search">
+          <input type="text" placeholder="Search...">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="profile">
+          <i class="fas fa-bell"></i>
+          <img src="https://via.placeholder.com/40" alt="Profile Picture">
+        </div>
+      </header>
+
+      <section class="dashboard">
+        <h1>Welcome to ENVYNODE</h1>
+        <div class="cards">
+          <div class="card">
+            <h3>Active Servers</h3>
+            <p>12</p>
+          </div>
+          <div class="card">
+            <h3>CPU Usage</h3>
+            <p>65%</p>
+          </div>
+          <div class="card">
+            <h3>RAM Usage</h3>
+            <p>8 GB / 16 GB</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
